@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { ToDoList } from './ToDoList';
 
@@ -11,6 +10,7 @@ function App() {
         </p>
       </header>
       <ToDoList/>
+      <img className="footer-img" src="https://www.pngplay.com/wp-content/uploads/14/Fungus-Transparent-Images.png"/>
     </div>
   );
 }

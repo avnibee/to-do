@@ -27,6 +27,12 @@
   color: white;
 }
 
+.footer-img {
+  height: 20em; 
+  position: fixed;
+  left: 0px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
