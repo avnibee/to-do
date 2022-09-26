@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: pink;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Luminari", Times, serif;
   font-weight: 300;
   min-height: 100vh;
 }
@@ -12,8 +12,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .footer-img {
+    animation: footer-img-spin infinite 20s linear;
   }
 }
 
@@ -31,9 +31,10 @@
   height: 20em; 
   position: fixed;
   left: 0px;
+  bottom: 0px;
 }
 
-@keyframes App-logo-spin {
+@keyframes footer-img-spin {
   from {
     transform: rotate(0deg);
   }
